@@ -1,6 +1,6 @@
-# IRtoWiFiBridge
+# IR to WiFi Bridge
 
-a simple IR to WiFi bridge for home automation using ESP8266 and MQTT
+A simple IR to WiFi bridge for home automation using ESP8266 and MQTT
 
 ## Description
 
@@ -11,6 +11,8 @@ Codes are sent/recieved in the below JSON format via MQTT. The list of manufactu
 ```
 {"manufacturer":"SAMSUNG","code":3772833823,"bits":32}
 ```
+
+You can use this with home automation tools like hass.io to allow you to control IR devices within your chosen home automation platform/from your devices (e.g phone, alexa, etc)
 
 ## Hardware
 
